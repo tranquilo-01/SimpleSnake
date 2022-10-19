@@ -1,0 +1,57 @@
+@font-face {
+    font-family: minecraft;
+    src: url(src/Minecraft.ttf);
+}
+
+#title_div {
+    height: 100px;
+    width: 800px;
+    font-family: minecraft;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+#score_container {
+    height: 30px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.score {
+    font-family: minecraft;
+    font-size: 30px;
+    height: 30px;
+    width: 300px;
+}
+
+#max_score {
+    text-align: end;
+}
+
+
+
+#dv {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cnvs {
+    border: solid black 2px;
+}
+
+#signature {
+    width: 800px;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: minecraft;
+    font-size: 10px;
+    text-align: end;
+}
